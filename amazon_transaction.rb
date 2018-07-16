@@ -14,8 +14,6 @@ class AmazonTransaction
     @price = price
     @total += (price * amount)
     @items.push(title)
-  
-  end
     
   end
   
