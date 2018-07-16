@@ -8,7 +8,7 @@ class AmazonTransaction
     @discount = discount
   end 
   
-  def add_item (title, price)
+  def add_item (title, price = 0.98)
     @price = price
   end
   
