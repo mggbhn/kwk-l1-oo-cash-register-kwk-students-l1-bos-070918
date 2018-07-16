@@ -3,5 +3,6 @@ class Amazon
   
   def initialize
     @total = :total
+  end 
   
 end
