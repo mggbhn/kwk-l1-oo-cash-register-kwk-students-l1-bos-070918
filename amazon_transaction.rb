@@ -19,6 +19,7 @@ class AmazonTransaction
   def apply_discount
     if @discount
   @total = @total * ((100 - discount)/100)
+else 
 end
   
   end
