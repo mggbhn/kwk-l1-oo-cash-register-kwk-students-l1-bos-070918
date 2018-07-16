@@ -16,9 +16,9 @@ class AmazonTransaction
     @items.push(title)
   end
   
-  def apply_discount
+  def apply_discount(discount)
     
-  @newtotal =  @total * ((100 - @discount)/100)
+  @newtotal =  @total * ((100 - discount)/100)
   end
   
 end
