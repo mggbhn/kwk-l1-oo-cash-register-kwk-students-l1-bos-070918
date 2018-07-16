@@ -1,4 +1,4 @@
-class Amazon
+class AmazonTransaction
   attr_accessor :total 
   
   def initialize(total = 0)
