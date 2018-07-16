@@ -9,6 +9,7 @@ class AmazonTransaction
   end 
   
   def add_item (title, price)
+    @price = price
   end
   
 end
