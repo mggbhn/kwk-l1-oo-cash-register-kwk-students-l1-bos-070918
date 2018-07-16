@@ -17,6 +17,7 @@ class AmazonTransaction
     @items.push(title)
     
     @amount -= 1
+  end
     
   end
   
